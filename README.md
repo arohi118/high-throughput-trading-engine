@@ -38,7 +38,7 @@ Settlement]   Order Book]
 
 ## ✨ Features
 
-- **Java 21 Virtual Threads:** Non-blocking I/O handling that maximizes thread density without standard platform thread pool exhaustion[cite: 1].
+- **Java 21 Virtual Threads:** Non-blocking I/O handling that maximizes thread density without standard platform thread pool exhaustion.
 - **Price-Time Priority In-Memory Book:** Implements fast limit order book execution with $O(\log N)$ inserts and removals using `ConcurrentSkipListMap`.
 - **Zero-Allocation Data Records:** Employs Java Records for immutable, low-overhead transaction payloads.
 - **Production Observability:** Built-in Spring Boot Actuator and Prometheus metric endpoints for real-time throughput and latency tracking.
@@ -48,8 +48,8 @@ Settlement]   Order Book]
 ## 🚀 Getting Started
 
 ### Prerequisites
-- JDK 21 installed[cite: 1]
-- Apache Maven 3.8+[cite: 1]
+- JDK 21 installed
+- Apache Maven 3.8+
 
 ### Build and Run
 
